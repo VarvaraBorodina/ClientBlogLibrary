@@ -1,11 +1,11 @@
 # Client Blog Library
 
-[Watch on Storybook](https://64c8df4f7dd4296775eac92e--wondrous-travesseiro-602d8e.netlify.app/?path=/story/calendar--base)
+[Watch on Storybook](https://main--meek-bublanina-1598a7.netlify.app/)
 
 ### Instalation
 
 ```
-npm i calendar-with-todo-list
+npm i client-blog-library
 ```
 
 ### Component
