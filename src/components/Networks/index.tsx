@@ -9,18 +9,19 @@ const { INSTAGRAM, LINKED_IN, FACEBOOK, TWITTER } = ICONS;
 
 export const Networks = (props: NetworksPorps) => {
   const { linkedIn, twitter, facebook, instagram } = props;
+
   return (
     <div className={styles.social}>
-      <a href={facebook} className={styles.link}>
+      <a className={styles.link} href={facebook}>
         {FACEBOOK}
       </a>
-      <a href={twitter} className={styles.link}>
+      <a className={styles.link} href={twitter}>
         {TWITTER}
       </a>
-      <a href={instagram} className={styles.link}>
+      <a className={styles.link} href={instagram}>
         {INSTAGRAM}
       </a>
-      <a href={linkedIn} className={styles.link}>
+      <a className={styles.link} href={linkedIn}>
         {LINKED_IN}
       </a>
     </div>
