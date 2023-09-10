@@ -29,7 +29,7 @@ export default [
       terser(),
 
       postcss({
-        extract: true, // Extract CSS to separate file
+        extract: false, // Extract CSS to separate file
         minimize: true, // Minimize CSS output
         plugins: [
           // Additional postcss plugins go here
@@ -43,7 +43,7 @@ export default [
     plugins: [
       dts.default(),
       postcss({
-        extract: true, // Extract CSS to separate file
+        extract: false, // Extract CSS to separate file
         minimize: true, // Minimize CSS output
         plugins: [
           // Additional postcss plugins go here

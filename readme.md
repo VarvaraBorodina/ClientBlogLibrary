@@ -22,7 +22,13 @@ author: {
     name: string,
     lastName: string,
     description: string,
-    photo: string
+    photo: string,
+    networks: {
+        linkedIn: string;
+        facebook: string;
+        instagram: string;
+        twitter: string;
+    };
 }
 role: string
 ```
@@ -100,5 +106,9 @@ post: {
 ### Props
 
 ```
-No props
+linkedIn: string;
+facebook: string;
+instagram: string;
+twitter: string;
+
 ```

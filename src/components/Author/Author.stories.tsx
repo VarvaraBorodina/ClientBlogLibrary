@@ -18,6 +18,12 @@ const author = {
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus.",
   photo: imageFile,
+  networks: {
+    linkedIn: "https://www.linkedin.com/",
+    facebook: "https://www.facebook.com/",
+    instagram: "https://www.instagram.com/",
+    twitter: "https://twitter.com/",
+  },
 };
 
 export const Base: Story = {

@@ -4,4 +4,10 @@ export interface Author {
   lastName: string;
   description: string;
   photo: string;
+  networks: {
+    linkedIn: string;
+    facebook: string;
+    instagram: string;
+    twitter: string;
+  };
 }
